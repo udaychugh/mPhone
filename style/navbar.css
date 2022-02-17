@@ -55,7 +55,7 @@
 }
 
 #navbar-animmenu > ul > li.active > a {
-    color: #ffffff;
+    color: #FFFFFF;
     background-color: transparent;
     transition: all 0.7s;
 }
