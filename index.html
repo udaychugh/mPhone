@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>mPhone 22</title>
+    <link rel="icon" href="images/mango.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/features.css">
+    <link rel="stylesheet" href="style/pro.css">
+    <link rel="stylesheet" href="style/buynow.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="navbar-main-class" id="nav-scroll">
+        <div id="navbar-animmenu">
+            <ul class="show-dropdown main-navbar">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="active">
+                    <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#features"><i class="fa-solid fa-bookmark"></i>Features</a>
+                </li>
+                <li>
+                    <a href="#products"><i class="fa-solid fa-mobile-screen-button"></i>Product</a>
+                </li>
+                <li>
+                    <a href="#buynow"><i class="fa-solid fa-bag-shopping"></i>Buy Now</a>
+                </li>
+            </ul>
+            <img width="100px" src="images/primary_logo.png" alt="Mango Logo" title="Mango INC">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-display" id="home">
+        <video playsinline autoplay muted once id="bgvid" src="images/promo.mp4"></video>
+    </div>
+
+
+    <div class="showingproducts" id="features">
+        <div class="first hero">
+            <img class="hero-profile-img" src="images/tree.webp" alt="">
+            <div class="hero-description-bk"></div>
+            <div class="hero-logo">
+                <img src="images/lens.png" alt="">
+            </div>
+            <div class="hero-description">
+                <p>Most Advanced Tripple‑Camera System Ever.</p>
+            </div>
+            <div class="hero-date">
+                <p>mPhone</p>
+            </div>
+            <div class="hero-btn">
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="second hero">
+            <img class="hero-profile-img" src="images/chip.webp" alt="">
+            <div class="hero-description-bk"></div>
+            <div class="hero-logo">
+                <img src="images/m15.webp" alt="">
+            </div>
+            <div class="hero-description">
+                <p>A lightning-fast chip that leaves the competition behind.</p>
+            </div>
+            <div class="hero-date">
+                <p>mPhone</p>
+            </div>
+            <div class="hero-btn">
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="third hero">
+            <img class="hero-profile-img" src="images/battery.webp" alt="">
+            <div class="hero-description-bk"></div>
+            <div class="hero-logo">
+                <img src="images/batteryicon.webp" alt="">
+            </div>
+            <div class="hero-description">
+                <p>A huge leap in battery life you'll notice every day.</p>
+            </div>
+            <div class="hero-date">
+                <p>mPhone</p>
+            </div>
+            <div class="hero-btn">
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="fourth hero">
+            <img class="hero-profile-img" src="images/dura.webp" alt="">
+            <div class="hero-description-bk"></div>
+            <div class="hero-logo">
+                <img src="images/durahai.png" alt="">
+            </div>
+            <div class="hero-description">
+                <p>Durability that’s front and centre. And edge to edge.</p>
+            </div>
+            <div class="hero-date">
+                <p>mPhone</p>
+            </div>
+            <div class="hero-btn">
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="showingfeatures" id="products">
+        <div class="container">
+            <div class="card">
+                <div class="sneaker">
+                    <div class="circle"></div>
+                    <img src="images/mphone.png" alt="adidas" />
+                </div>
+                <div class="info">
+                    <h1 class="title">mPhone 22 Pro</h1>
+                    <h3>
+                        YOUR NEW SUPERPOWER <br>
+                        THINK DIFFERENT - BUT NOT TOO DIFFERENT
+                    </h3>
+                    <div class="sizes">
+                        <button>Surgical-grade stainless steel</button>
+                        <button>Ceramic Shield, tougher than any smartphone glass</button>
+                        <button class="active">Industry-leading IP68 water resistance2</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buynow" id="buynow">
+        <div class="contianed">
+            <img class="img-style" src="images/mphone.png" alt="image">
+            <div class="contianed-text">
+                <h2>Know yourself. Achieve Your Very Best</h2>
+                <p>Book your brand new mPhone today and get new phone before everyone.</p>
+                <input type="text" id="username" placeholder="Enter your name" autocomplete="off">
+                <button onclick="preorder()">Pre-Order Now</button>
+                <span>Terms and Condition applied</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">About us</div>
+                    <p>Mango Inc. is an Indian multinational technology company that specializes in consumer electronics, software and online services. </p>
+                </div>
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+91 9999 8888 12</a>
+                    </div>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>contact@mango.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our Products</div>
+                <div><a href="#">mango music</a></div>
+                <div><a href="#">mango tv+</a></div>
+                <div><a href="#">mango books</a></div>
+                <div><a href="#">mango mPad</a></div>
+                <div><a href="#">waterPods</a></div>
+                <div><a href="#">mango watch</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
+                    <div class="media-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright © 2022 Mango Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+    <script src="script/navbar.js"></script>
+    <script src="script/feature.js"></script>
+</body></html>

@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.model {
+    background: rgba(0, 0, 0, 0.55);
+    background-image: url(../images/model.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(36, 36, 36, 0.72)), url(../images/model.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.basicinfo {
+    background: rgba(0, 0, 0, 0.55);
+    background-image: url(../images/info.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(36, 36, 36, 0.72)), url(../images/info.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.payments {
+    background: rgba(0, 0, 0, 0.55);
+    background-image: url(../images/payments.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(36, 36, 36, 0.72)), url(../images/payments.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.thankyou {
+    background: rgba(0, 0, 0, 0.55);
+    background-image: url(../images/thanks.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(36, 36, 36, 0.72)), url(../images/thanks.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.model,
+.basicinfo,
+.payments,
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.options:hover {
+    transform: scale(1.1);
+}
+
+.selectm,
+.selectc,
+.selectcapa {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bluefinish,
+.silverfinish,
+.goldfinish,
+.graphitefinish {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.bluefinish {
+    background-color: #69abce;
+
+}
+
+.silverfinish {
+    background-color: #aaa9ad;
+}
+
+.goldfinish {
+    background-color: #F6E0C9;
+}
+
+.graphitefinish {
+    background-color: #35362E;
+}
+
+.next {
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+.next:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 22% 78% 22% 78% / 33% 65% 35% 67%;
+}
+
+.next:hover i {
+    opacity: 1;
+}
+
+.next i {
+    opacity: 0;
+}
+
+
+.selectc .options,
+.selectcapa .options {
+    padding: 20px;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pro,
+#promax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.basicinfo input {
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.basicinfo label {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.basicinfo label span {
+    color: #c7c7c7;
+}
+
+.basicinfo input::placeholder {
+    color: white;
+}
+
+.basicinfo input:active,
+.basicinfo input:focus {
+    border-left: 2px solid red;
+    border-bottom-left-radius: 10px;
+}
+
+
+.top {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: sticky;
+    bottom: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-right: 30px;
+    transition: all 0.3s linear;
+}
+
+.top:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.payment {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.payment .card {
+    position: relative;
+    width: 580px;
+    height: auto;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 40px;
+    -webkit-box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    overflow: hidden;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+
+.payment .card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -20%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(transparent));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
+    pointer-events: none;
+}
+
+.chip {
+    position: absolute;
+    max-width: 70px;
+    margin-top: -10px;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: #ea221c;
+    border-radius: 50%;
+    -webkit-box-shadow: -40px 0 0 rgba(255, 164, 36, 0.5);
+    box-shadow: -40px 0 0 rgba(255, 164, 36, 0.5);
+}
+
+.bankname {
+    color: #fff;
+    text-align: end;
+    outline: none;
+    width: 100%;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.myformpay {
+    margin-top: 15px;
+}
+
+.inputbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.inputbox span {
+    color: #089cff;
+    font-size: 1.1em;
+}
+
+.inputbox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.8em;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.inputbox input::placeholder {
+    color: #fff;
+}
+
+.group {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.group .inputbox:last-child {
+    max-width: 60px;
+}
+
+
+.carded {
+    background: tranparent;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #f3f3f3;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.carded i {
+    color: #9ABC66;
+    font-size: 100px;
+}
+
+.carded h1{
+    margin: 10px;
+}

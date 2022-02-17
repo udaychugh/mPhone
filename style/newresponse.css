@@ -1,0 +1,24 @@
+@media(max-width:669px) {
+    .payment .card {
+        width: 80%;
+    }
+}
+
+@media(max-width:488px) {
+    .payment .card {
+        width: 350px;
+    }
+}
+
+@media(max-width:350px) {
+    .payment .card {
+        width: 200px;
+    }
+}
+
+
+@media(max-width:430px){
+    .carded{
+        width: 80% !important;
+    }
+}

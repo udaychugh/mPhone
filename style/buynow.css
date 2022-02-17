@@ -1,0 +1,81 @@
+.buynow{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contianed {
+    background-color: transparent;
+    width: 600px;
+    height: 450px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    line-height: 1.5;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+}
+
+.img-style {
+    width: 100%;
+    margin-right: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contianed-text {
+    padding: 10px 40px 10px 10px;
+}
+
+.contianed-text h2 {
+    font-size: 1.2rem;
+    color: #f3f3f3;
+    padding: 10px 40px 10px 10px;
+}
+
+.contianed-text p {
+    font-size: 14px;
+    color: #f3f3f3;
+    margin: 10px 0;
+    padding: 10px 40px 10px 10px;
+}
+
+.contianed-text input,
+.contianed-text button {
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 3px;
+    border-radius: 10px;
+}
+
+.contianed-text input {
+    border: 2px solid #DADDEC;
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: #656880;
+    outline: none;
+}
+
+.contianed-text button {
+    background-image: linear-gradient(to right, #89CAFF, #6589FF);
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #89caff94;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.contianed-text button:hover {
+    box-shadow: none;
+}
+
+.contianed-text span {
+    display: block;
+    text-align: center;
+    margin: 20px 0 0;
+    color: #BABDCB;
+    font-size: 12px;
+}
+

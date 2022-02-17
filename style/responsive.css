@@ -1,0 +1,92 @@
+@media(max-width : 1190px){
+    video{
+        object-fit:contain;
+    }
+}
+
+@media(max-width : 950px){
+    footer .content{
+        justify-content: center;
+    }
+}
+
+@media(max-width : 701px){
+    .card{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width : 635px){
+    #navbar-animmenu ul{
+        display: none;
+    }
+    #navbar-animmenu img{
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+    
+    .hamburger i{
+        margin-right: 40px;
+        font-size: 22px;
+    }
+    
+    .buynow{
+        margin-bottom: 100px;
+    }
+    
+    .contianed{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .img-style{
+        width: 200px;    
+    }
+}
+
+@media(max-width : 412px)
+{
+    .showingproducts{
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .hero{
+        width: 350px;
+        min-width: 350px;
+    }
+}
+
+
+@media(max-width : 340px)
+{
+    .showingproducts{
+        justify-content: center;
+        margin-left: 80px;
+    }
+    .hero{
+        width: 300px;
+        min-width: 300px;
+    }
+    
+    .sneaker img{
+        width: 200px;
+    }
+    .showingfeatures{
+        margin-left: 50px;
+    }
+    
+    video{
+        object-fit:contain;
+    }
+}
